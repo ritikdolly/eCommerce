@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addToCart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <header class="section-navbar">
+        <script src="./src/header.js"></script>
+    </header>
+  
+
+    <!--=============Start main container ====================-->
+
+    <section class="addToCartElement">
+        <div class="container">
+            <section>
+                <div id="productCartContainer"></div>
+            </section>
+
+            <section class="productCartTotalElem">
+                <div class="productCartTotalElement">
+                    <p>Selection Offer Summary</p>
+                    <div class="productOrderTotal">
+                        <div>
+                            <p>Sub Total:</p>
+                            <p class="productSubTotal">0</p>
+                        </div>
+                        <div>
+                            <p>Tax:</p>
+                            <p class="productTax">₹75</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <p>Final Total:</p>
+                            <p class="productFinalTotal">0</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <template id="productCartTemplate">
+        <div class="cards" id="cardValue">
+            <article class="information [ card ]">
+                <div>
+                    <span class="category"></span>
+                </div>
+                <div class="imageContainer">
+                    <img class="productImage" src="" alt=""/>
+                </div>
+
+                <h2 class="productName"></h2>
+                
+                <p class="productPrice"></p>
+
+                <div class="stockElement">
+                    <button class="cartIncrement">+</button>
+                    <p class="productQuantity" data-quantity="1">1</p>
+                    <button class="cartdecrement">-</button>
+                </div>
+                
+                <button class="add-to-cart-button remove-to-cart-button">Remove</button>
+            </article>
+        </div>
+    </template>
+
+    <!--=============Start footer================-->
+    <footer class="section-footer">
+        <script src="./src/footer.js"></script>
+      </footer>
+    <!--=============End footer================-->
+
+    <script type="module" src="/src/showAddToCards.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+[
+    {
+        "id":1,
+        "name":"Asus Vivobok",
+        "category":"laptop",
+        "brand": "Asus",
+        "price":57999,
+        "stock":10,
+        "image":"images/laptop.png",
+        "description":"ASUS Vivobook 15 Intel Core i5 12th Gen 1235U -(8 GB/512 GB SSD/Windows 11 Home)"
+    },
+    {
+        "id":2,
+        "name":"JBL Headphone",
+        "category":"Headphone",
+        "brand": "JBL",
+        "price":2589,
+        "stock":20,
+        "image":"images/headphone.png",
+        "description":"JBL Tune 520 BT 57Hr Playtime, Pure Bass, Multi Connect Bluetooth Headset, BT 5.3LE Bluetooth  (Blue, On the Ear)"
+    },
+    {
+        "id":3,
+        "name":"iphone 16",
+        "category":"smart phone",
+        "brand": "iphone",
+        "price":59999,
+        "stock":25,
+        "image":"images/iphone.png",
+        "description":"iPhone 16. Built for Apple Intelligence. Featuring Camera Control. 48 MP Fusion camera."
+    },
+    {
+        "id":4,
+        "name":"Zebronics Speaker",
+        "category":"speaker",
+        "brand": "ZEBRONICS",
+        "price":13999,
+        "stock":18,
+        "image":"images/speaker.png",
+        "description":"ZEBRONICS ZEB-WARRIOR 10 W Laptop/Desktop Speaker  (Black, Black, 2.0 Channel)"
+    },
+    {
+        "id":5,
+        "name":"Weird Lamp",
+        "category":"Study Lamp",
+        "brand": "WEIRD",
+        "price":299,
+        "stock":50,
+        "image":"images/lamp.jpg",
+        "description":"WEIRD WOLF 3 Color Mode Rechargeable Flexible Gooseneck, LED Table / Study Lamp  (35 cm, White)"
+    },
+    {
+        "id":6,
+        "name":"Sony LED TV",
+        "category":"television",
+        "brand": "SONY",
+        "price":15999,
+        "stock":21,
+        "image":"images/tv.png",
+        "description":"SONY Bravia 2 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2024 Edition  (K-43S20B)"
+    },
+    {
+        "id":7,
+        "name":"Zebronics Mouse",
+        "category":"mouse",
+        "brand": "Zebronics",
+        "price":599,
+        "stock":21,
+        "image":"images/mouse.png",
+        "description":"ZEBRONICS ZEB-SCORPIO Wired Optical Gaming Mouse  (USB 2.0, USB 3.0, Black)"
+    },
+    {
+        "id":8,
+        "name":"Zebronics Keyboard",
+        "category":"keyboard",
+        "brand": "Zebronics",
+        "price":599,
+        "stock":21,
+        "image":"images/keyboard.png",
+        "description":"ZEBRONICS TRANSFORMER-K1 Wired USB Gaming Keyboard  (Multi Color LED Modes)"
+    },
+    {
+        "id":9,
+        "name":"Lenovo Tab M11",
+        "category":"tablet",
+        "brand": "Lenovo",
+        "price":16599,
+        "stock":8,
+        "image":"images/tablet.png",
+        "description":"Lenovo Tab M11 LTE with Pen 4 GB RAM 128 GB ROM 11.0 inch with 4G Tablet (Seafoam Green)"
+    }
+
+]
